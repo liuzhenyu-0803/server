@@ -8,11 +8,8 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/index.ts",
-      "preLaunchTask": "npm: build",
-      "outFiles": [
-        "${workspaceFolder}/dist/**/*.js"
-      ]
+      "program": "${workspaceFolder}/dist/index.js",
+      "preLaunchTask": "npm: build"
     }
   ]
 }
